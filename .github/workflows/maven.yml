@@ -27,4 +27,4 @@ jobs:
     - name: run test without NonDex
       run: mvn -pl regression-run test -Dtest=com.espertech.esper.regressionrun.suite.epl.TestSuiteEPLSpatial#testEPLSpatialPointRegionQuadTreeEventIndex
     - name: run test with NonDex
-      run: mvn -pl regression-run edu.illinois:nondex-maven-plugin:1.1.2:nondext -Dtest=com.espertech.esper.regressionrun.suite.epl.TestSuiteEPLSpatial#testEPLSpatialPointRegionQuadTreeEventIndex
+      run: mvn -pl regression-run edu.illinois:nondex-maven-plugin:1.1.2:nondex -Dtest=com.espertech.esper.regressionrun.suite.epl.TestSuiteEPLSpatial#testEPLSpatialPointRegionQuadTreeEventIndex
